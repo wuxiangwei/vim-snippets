@@ -25,6 +25,33 @@ endglobal
 ###########################
 # Sections and Paragraphs #
 ###########################
+snippet xwk "周报模板" b
+### 工作周报 (2017/1/1 ~ 2017/1/7)
+
+**本周工作**
+
+ ${1:1. 搬砖}
+
+**下周安排**
+
+ ${2:1. 继续搬砖}
+$0
+endsnippet
+
+snippet xdy "日报模板" b
+### `!v strftime("%F")` 周${1: 一}
+
+**今日工作**
+
+ ${2:1. 搬砖}
+
+**明日安排**
+
+ ${3:1. 继续搬砖}
+$0
+endsnippet
+
+
 snippet sec "Section" b
 # ${1:Section Name} #
 $0
